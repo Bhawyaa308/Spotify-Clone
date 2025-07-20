@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify web player- Music for everyone</title>
+  <link rel="icon" type="image/png" href="icons8-spotify-100.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="utilitiy.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="container flex">
+    <div class=" left bg-black">
+     <i class="fa-brands fa-spotify fa-2xl logo flex" style="color: #ffffff;"></i>
+      <span class="rectangle ">
+        <div class="library flex">
+          <i class="fa-solid fa-book fa-xl lib" style="color: #ffffff;"></i>
+          <h4 class="color-grey">Your Library</h4>
+          <!-- <span class="plus invert-grey"> <img class="invert" src="+.svg" alt="+"></span> -->
+        </div>
+        <div class="create-playlist bg-grey boxes">
+          <h3>Create your first playlist</h3>
+          <h5 class="light h5-margin">It's easy, we'll help you</h5>
+          <div class="create item-center flex button">
+            <a class="playlist" href="https://support.spotify.com/us/article/create-playlists/">Create playlist</a>
+          </div>
+        </div>
+        <div class="browse bg-grey boxes">
+          <h3>Let's find out some podcasts to follow</h3>
+          <h5 class="light h5-margin">We'll keep you updated on new episodes</h5>
+          <div class="create item-center flex button">
+            <a class="playlist2" href="https://support.spotify.com/ws/article/podcasts-and-shows/">Browse Podcasts</a>
+          </div>
+        </div>
+        <div class="left-sidebar-legal-links" data-testid="left-sidebar-legal-links">
+          <div class="bottom-links-list">
+            <div class="link-container">
+              <a href="https://www.spotify.com/in-en/legal/" class="link">
+                <span>Legal</span>
+              </a>
+            </div>
+            <div class="link-container">
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/" class="link">
+                <span>Safety &amp; Privacy Center</span>
+              </a>
+            </div>
+            <div class="link-container">
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="link">
+                <span>Privacy Policy</span>
+              </a>
+            </div>
+            <div class="link-container">
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="link">
+                <span>Cookies</span>
+              </a>
+            </div>
+            <div class="link-container">
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="link">
+                <span>About Ads</span>
+              </a>
+            </div>
+            <div class="link-container">
+              <a href="https://www.spotify.com/in-en/accessibility/" class="link">
+                <span>Accessibility</span>
+              </a>
+            </div>
+          </div>
+          <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener" class="cookies-link">
+            <span>Cookies</span>
+          </a>
+        </div>
+
+    </div>
+    <div class=" right bg-black">
+      <span class="dot bg-grey ">
+        
+        <i class="fa-solid fa-house home" style="color: #ffffff;"></i>
+      </span>
+      <a href="https://open.spotify.com/"><i class="fa-brands fa-searchengin fa-xl" style="color: #ffffff;"></i></a>
+     
+      </span>
+      <div class="spotify_playlist bg-grey">
+        <h2 class="heading">Trending songs</h2>
+        <p class="p_showall">Show all</p>
+        <div class="card_container flex">
+
+          <div class="card">
+            <img class="img_set" src="https://m.media-amazon.com/images/I/51o0YM-NKTL.jpg" alt="music" height="150px"
+              width="170px">
+            <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+            <h3>Ran it up</h3>
+            <p class="p_set">Hanumankind</p>
+          </div>
+          <div class="card">
+            <img class="img_set" src="https://i.ytimg.com/vi/hO6Q6MRTSjg/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH8CYAC0AWKAgwIABABGGUgZShlMA8=&amp;rs=AOn4CLAB5jrCgeg215nqJ2XbXvJmcCR9tQ"
+              alt="music" height="150px" width="170px">
+            <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+            <h3>Vartmaan</h3>
+            <p class="p_set">UNIYAT,Soumya Rawat</p>
+          </div>
+          <div class="card">
+            <img class="img_set" src="https://upload.wikimedia.org/wikipedia/en/3/34/Passo_Bem_Solto_-_Atlxs.jpg"
+              alt="music" height="150px" width="170px">
+            <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+            <h3>Passo Bem Solto </h3>
+            <p class="p_set">Atlxs</p>
+          </div>
+          <div class="card">
+            <img class="img_set" src="https://a10.gaanacdn.com/gn_img/albums/R7vKX66Wmr/vKXrXMvVWm/size_m.jpg"
+              alt="music" height="150px" width="170px">
+            <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+            <h3>Aasa Kooda</h3>
+            <p class="p_set">Sai Abhyankkar, Sai Smriti</p>
+          </div>
+          <div class="card">
+            <img class="img_set"
+              src="https://a10.gaanacdn.com/gn_img/albums/qaLKY623pO/LKYABvkzKp/size_m_1710579769.jpg" alt="music"
+              height="150px" width="170px">
+            <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+            <h3>Ishq</h3>
+            <p class="p_set">Faheem Abdullah, Rauhan Malik</p>
+          </div>
+
+        </div>
+        <div class="popular_artists">
+          <h2 class="heading">Popular Artists</h2>
+          <p class="p_showall">Show all</p>
+          <div class="card-row">
+            <div class="circular-card-wrapper">
+              <div class="circular-card">
+                <img
+                  src="https://lh3.googleusercontent.com/sjGMYJQ1J3FZEIBsMYUztMjjYOM4-NJ24CjmIHqxTWCxAM1YgjL-d_17u7_PRhTouOwwAjbu-2x5S6I=w544-h544-p-l90-rj"
+                  alt="pritam">
+              </div>
+              <h3 class="card-text">Pritam</h3>
+              <p class="p_set">Artist</p>
+            </div>
+
+            <div class="circular-card-wrapper">
+              <div class="circular-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjDyc_tG5e86BW-yHlkRpzJMNvwBviWYqBag&s"
+                  alt="A.R. Rahman">
+              </div>
+              <h3 class="card-text">A.R. Rahman</h3>
+              <p class="p_set">Artist</p>
+            </div>
+
+            <div class="circular-card-wrapper">
+              <div class="circular-card">
+                <img src="https://lastfm.freetls.fastly.net/i/u/ar0/ad7e05685bef8909f27c0d95bf79425c.jpg"
+                  alt="arijit singh">
+              </div>
+              <h3 class="card-text">Arijit Singh</h3>
+              <p class="p_set">Artist</p>
+            </div>
+
+            <div class="circular-card-wrapper">
+              <div class="circular-card">
+                <img
+                  src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2019/07/best-top-10-kailash-kher-songs-albums-dob-age-height-net-worth-1562473109.jpg"
+                  alt="SKailash Kher">
+              </div>
+              <h3 class="card-text">Kailash Kher</h3>
+              <p class="p_set">Artist</p>
+            </div>
+
+            <div class="circular-card-wrapper">
+              <div class="circular-card">
+                <img src="https://www.orissapost.com/wp-content/uploads/2021/03/fcsfsfsdrafdaf.jpg"
+                  alt="Shreya Ghoshal">
+              </div>
+              <h3 class="card-text">Shreya Ghoshal</h3>
+              <p class="p_set">Artist</p>
+            </div>
+
+            <div class="circular-card-wrapper">
+              <div class="circular-card">
+                <img src="https://images.genius.com/2865831b5aac4db5f8a3a628f79464a2.682x682x1.jpg"
+                  alt="Nusrat Fateh Ali Khan">
+              </div>
+              <h3 class="card-text">Nusrat Fateh Ali Khan</h3>
+              <p class="p_set">Artist</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular_albums_and_singles">
+          <h2 class="heading">Popular albums and Singles</h2>
+          <p class="p_showall">Show all</p>
+          <div class="card_container flex">
+
+            <div class="card2">
+              <img class="img_set"
+                src="https://a10.gaanacdn.com/gn_img/albums/JD2KJyAbOL/2KJ56XLdbO/size_m.jpg"
+                alt="music" height="150px" width="170px">
+              <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+              <h3>Raanjhan</h3>
+              <p class="p_set">	Sachet-Parampara, Tanishk Bagchi, Khan Muhammad</p>
+            </div>
+            <div class="card2">
+              <img class="img_set"
+                src="https://c.saavncdn.com/256/1920-Evil-Returns-Hindi-2012-20221213041144-500x500.jpg"
+                alt="music" height="150px" width="170px">
+              <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+              <h3>Uska Hi Banana</h3>
+              <p class="p_set">Arijit Singh</p>
+            </div>
+            <div class="card2">
+              <img class="img_set"
+                src="https://img.wynk.in/unsafe/200x200/filters:no_upscale():strip_exif():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/1554014148/srch_zeemusic_INZ031405230.jpg"
+                alt="music" height="150px" width="170px">
+              <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+              <h3>Kalank Title Track</h3>
+              <p class="p_set">Amaal Mallik</p>
+            </div>
+            <div class="card2">
+              <img class="img_set"
+                src="https://41s.musify.club/img/68/13170354/34008464.jpg"
+                alt="music" height="150px" width="170px">
+              <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+              <h3>Perfect</h3>
+              <p class="p_set">	Ed Sheeran</p>
+            </div>
+            <div class="card2">
+              <img class="img_set"
+                src="https://images1.hungama.com/tr:n-a_11_m/c/1/015/54e/36870507/36870507_800x800.jpg?version=8_11"
+                alt="music" height="150px" width="170px">
+              <img class="spotify-play-button" src="playbutton.svg" alt="playbutton">
+              <h3>Dhadak Title Track</h3>
+              <p class="p_set">Ajay-Atul</p>
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+      <!-- Sticky Playbar -->
+      <div class="playbar">
+        <div class="songinfo"></div>
+        <div class="track-info">
+          <img
+            src="https://media.istockphoto.com/id/1488540963/photo/beautiful-emotional-woman-listening-to-music.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y8Uw9eJjlF_GTb2vNoyOcDKM5hfrkMojE5nHXRKJQgU="
+            alt="Song" class="track-img" />
+          <div class="track-text">
+            <h4>Ran it up</h4>
+            <p>Hanumankind</p>
+          </div>
+          <div class="songtime"></div>
+        </div>
+
+        <div class="controls">
+          <button id="prev">⏮</button>
+          <button id="play">▶️</button>
+          <button id="next">⏭</button>
+        </div>
+
+        <div class="volume">
+          <input type="range" min="0" max="100" value="50" />
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+ <footer class="spotify-footer">
+  <div class="footer-main">
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="https://newsroom.spotify.com/company-info/">About</a></li>
+        <li><a href="https://www.jobleads.com/registration/100/jobs/en/global/Spotify-Jobs/all/spotify?utm_source=microsoft-ads_xx-search_XX__&utm_content=ALL|EN|XX|2_Spotify-Jobs_search-company_100&utm_medium=sea-ad&utm_campaign=ALL|EN|XX|2&msclkid=3344423735991ab593962a4cc7d46515">Jobs</a></li>
+        <li><a href="https://newsroom.spotify.com/">For the Record</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Communities</h4>
+      <ul>
+        <li><a href="https://artists.spotify.com/home">For Artists</a></li>
+        <li><a href="https://developer.spotify.com/">Developers</a></li>
+        <li><a href="https://ads.spotify.com/en-IN/">Advertising</a></li>
+        <li><a href="https://investors.spotify.com/home/default.aspx">Investors</a></li>
+        <li><a href="https://spotifyforvendors.com/">Vendors</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Useful links</h4>
+      <ul>
+        <li><a href="https://support.spotify.com/in-en/">Support</a></li>
+        <li><a href="https://open.spotify.com/section/0JQ5DAnM3wGh0gz1MXnu3B">Free Mobile App</a></li>
+        <li><a href="https://open.spotify.com/popular-in/in">Popular by Country</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Spotify Plans</h4>
+      <ul>
+        <li><a href="https://www.spotify.com/in-en/premium/#ref=spotifycom_footer_premium_individual">Premium Individual</a></li>
+        <li><a href="https://www.spotify.com/in-en/duo/#ref=spotifycom_footer_premium_duo">Premium Duo</a></li>
+        <li><a href="https://www.spotify.com/in-en/family/#ref=spotifycom_footer_premium_family">Premium Family</a></li>
+        <li><a href="https://www.spotify.com/in-en/student/#ref=spotifycom_footer_premium_student">Premium Student</a></li>
+        <li><a href="https://www.spotify.com/in-en/free/#ref=spotifycom_footer_free">Spotify Free</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/spotify/" aria-label="Instagram"><span style="display:inline-block;width:32px;height:32px;border-radius:50%;background:#222;display:flex;align-items:center;justify-content:center;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="6" stroke="#fff" stroke-width="2"/><circle cx="15.3" cy="4.7" r="1" fill="#fff"/></svg></span></a>
+        <a href="https://x.com/spotify" aria-label="Twitter"><span style="display:inline-block;width:32px;height:32px;border-radius:50%;background:#222;display:flex;align-items:center;justify-content:center;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M18 5.23c-.59.26-1.23.44-1.89.52a3.28 3.28 0 001.44-1.81 6.46 6.46 0 01-2.08.8 3.26 3.26 0 00-5.56 2.97A9.24 9.24 0 013 4.6a3.26 3.26 0 001.01 4.35c-.55-.02-1.07-.17-1.53-.42v.04A3.25 3.25 0 003.2 12a3.23 3.23 0 01-1.53.06A3.28 3.28 0 005.9 14.1 6.55 6.55 0 012 15.58a9.23 9.23 0 005 1.46c6 0 9.29-4.97 9.29-9.28l-.01-.42A6.53 6.53 0 0020 4.79c-.24.11-.5.2-.76.28.27-.16.51-.36.76-.57z" fill="#fff"/></svg></span></a>
+        <a href="https://www.facebook.com/Spotify" aria-label="Facebook"><span style="display:inline-block;width:32px;height:32px;border-radius:50%;background:#222;display:flex;align-items:center;justify-content:center;"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M13 2.67V5.11h2.22V8H13v8H9V8H7V5.1h2V3a3 3 0 013-3h2v2.67H13z" fill="#fff"/></svg></span></a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="footer-bottom">
+    <div class="footer-links">
+      <a href="https://www.spotify.com/in-en/legal/end-user-agreement/">Legal</a>
+      <a href="https://www.spotify.com/in-en/safetyandprivacy">Safety & Privacy Center</a>
+      <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+      <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+      <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+      <a href="https://www.spotify.com/in-en/accessibility">Accessibility</a>
+    </div>
+    <div class="footer-copy">
+      &copy; <span id="year"></span> Spotify AB
+    </div>
+  </div>
+</footer>
+
+<script>
+  // For dynamic year display
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+<script>
+  // For dynamic year display
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+  <div class="advertisement">
+    <h4>Preview of spotify</h4>
+    <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

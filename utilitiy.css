@@ -1,0 +1,180 @@
+.border {
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.light {
+    font-weight: 500;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.invert-grey {
+    filter: brightness(0.65);
+}
+
+
+.boxes {
+    height: 110px;
+    width: 380px;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    padding: 16px 20px;
+    font-family: "Open+Sans", "Roboto";
+}
+.button:hover{
+    height: 32px;
+    width: 152px;
+}
+
+.h5-margin {
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.button {
+    background-color: #fff;
+    color: black;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.card{
+    /* background-color: #282828; */
+    height: 210px;
+    width: 180px;
+    border-radius: 7px;
+   font-size:small;
+   text-align: center;
+   padding: 8px;
+}
+.card2{
+    /* background-color: #282828; */
+    height: 210px;
+    width: 180px;
+    border-radius: 7px;
+   font-size:small;
+   text-align: center;
+   padding: 8px;
+}
+.img_set{
+    margin-top: 15px;
+    margin-left: auto;
+    align-items: center;
+    border-radius: 7px;
+    margin-bottom: 5px;
+    height: 180px;
+}
+.p_set{
+    color: #9a9a9a;
+    margin-top: 3px;
+    font-size: small;
+    font-size:400;
+}
+.p_showall{
+    color: #9a9a9a;
+    margin-top: -25px;
+    margin-left: 930px;
+    font-size: smaller;
+    font-weight: bold;
+}
+/* Center the whole section */
+.popular_artists {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+  }
+  
+  /* Heading and "Show all" styling */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Flexbox to make cards sit side by side */
+  .popular_artists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Container for the row of artist cards */
+  .popular_artists .card-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Wraps to a new line if needed */
+    gap: 20px; /* Space between cards */
+  }
+  
+  /* Circular card styling */
+  .circular-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Controls card size */
+  }
+  
+  /* Circular card itself */
+  .circular-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Artist image */
+  .circular-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .circular-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Artist name styling */
+  .card-text {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  /* Artist role styling */
+  /* .p_set {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: -5px;
+  } */
+  
